@@ -1,5 +1,5 @@
 # If necessary, uncomment the line below to include explore_source.
-# include: "omni_channel.model.lkml"
+include: "/models/omni_channel.model.lkml"
 
 view: customer_transaction_fact {
   derived_table: {
