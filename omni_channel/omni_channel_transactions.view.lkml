@@ -1,7 +1,9 @@
 view: omni_channel_transactions {
   derived_table: {
    datagroup_trigger: new_day
-    sql: SELECT *
+    sql:
+      -- adding comment to trigger pdt rebuild
+      SELECT *
       FROM
       (
       SELECT

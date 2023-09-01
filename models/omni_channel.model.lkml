@@ -6,7 +6,7 @@ include: "/omni_channel/*.dashboard.lookml"
 
 datagroup: new_day {
   sql_trigger: SELECT CURRENT_DATE() ;;
-  max_cache_age: "48 hours"
+  max_cache_age: "24 hours"
 }
 
 explore: omni_channel_transactions {
