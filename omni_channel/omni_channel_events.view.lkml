@@ -108,7 +108,7 @@ view: omni_channel_events {
 
   measure: acquisition_source {
     type: string
-    sql: SPLIT(MIN(CONCAT(CAST(${created_date} as string),'|',${traffic_source})),'|')[OFFSET(1)] ;;
+    sql: SPLIT(MIN(CONCAT(CAST(${TABLE}.CREATED_AT as string),'|',${TABLE}.TRAFFIC_SOURCE)),'|')[OFFSET(1)] ;;
   }
 
   measure: session_count {

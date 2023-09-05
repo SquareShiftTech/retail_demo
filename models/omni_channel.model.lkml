@@ -65,6 +65,8 @@ explore: omni_channel_support_calls {
   persist_with: new_day
 }
 
+explore: customer_event_fact {}
+
 
 explore: customer_transaction_fact {
   persist_with: new_day

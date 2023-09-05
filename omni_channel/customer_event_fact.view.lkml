@@ -1,10 +1,10 @@
 # If necessary, uncomment the line below to include explore_source.
-include: "/models/omni_channel.model.lkml"
+include: "/explores/*.lkml"
 
 view: customer_event_fact {
   derived_table: {
     datagroup_trigger: new_day
-    explore_source: omni_channel_events {
+    explore_source: omni_channel_events_base {
       column: customer_id {}
       column: acquisition_source {}
       column: cart_adds {}
