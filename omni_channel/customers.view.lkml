@@ -16,7 +16,7 @@ view: customers {
     sql: ${TABLE}.address ;;
     group_label: "Address Info"
     link: {
-      url: "/dashboards/ya1knzVmVzuw8UHoe4VqVt?Address=%22{{value | encode_uri}}"
+      url: "/dashboards/3OmU04xQdYtSVeq2Kf2GIj?Address=%22{{value | encode_uri}}"
       label: "Drill into this address"
       icon_url: "https://img.icons8.com/cotton/2x/worldwide-location.png"
     }

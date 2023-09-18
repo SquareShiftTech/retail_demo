@@ -31,7 +31,7 @@ view: stores {
     type: string
     sql: ${TABLE}.NAME ;;
     link: {
-      url: "/dashboards/WQKf302aPo8IEFvc2EkSQP?Date={{ _filters['transactions.date_comparison_filter'] | encode_uri }}&Store={{value | encode_uri}}"
+      url: "/dashboards/EsHSwCce7zkZr7uz6X5kbO?Date={{ _filters['transactions.date_comparison_filter'] | encode_uri }}&Store={{value | encode_uri}}"
       label: "Drill down into {{rendered_value}}"
     }
     link: {
