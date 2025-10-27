@@ -1,5 +1,5 @@
 view: retail_clv_predict {
-  sql_table_name: `retail_ltv.lpd_retail_clv_predict_tbl` ;;
+  sql_table_name: `looker-private-demo.retail_ltv.lpd_retail_clv_predict_tbl` ;;
   drill_fields: [customer_id]
 
   dimension: customer_id {
